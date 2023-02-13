@@ -1,1 +1,671 @@
-Hello World
+<!DOCTYPE HTML>
+
+<style>
+  #full {
+    display: none;
+  }
+  </style>
+
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Wenzhao Zheng</title>
+  
+  <meta name="author" content="Wenzhao Zheng">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <link rel="icon" type="image/png" href="images/icon.png">
+</head>
+
+
+<body>
+  <table style="width:100%;max-width:850px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+    <tr style="padding:0px">
+      <td style="padding:0px">
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr style="padding:0px">
+            <td style="padding:2.5%;width:60%;vertical-align:middle">
+              <p style="text-align:center">
+                <name>Wenzhao Zheng</name>
+              </p>
+              <p> 
+                I am a fifth year Ph.D student in the Department of Automation at Tsinghua University, advised by Prof. <a href="https://scholar.google.com/citations?user=6a79aPwAAAAJ&hl=en&authuser=1"> Jie Zhou </a> and Prof. <a href="http://ivg.au.tsinghua.edu.cn/Jiwen_Lu/"> Jiwen Lu </a>. 
+                In 2018, I received my BS degree from the Department of Physics, Tsinghua University. 
+                I am interested in computer vision and deep learning. My current research focuses on representation learning, autonomous driving, and explainable AI.
+              </p>
+              <!-- <p>
+              I am interested in computer vision and deep learning. My current research focuses on:
+                <li style="margin: 5px;" >
+                  <b>Omni-supervised representation learning</b> that includes deep metric learning, self-supervised learning, and explainable AI.
+                </li>
+                <li style="margin: 5px;" >
+                  <b>Vision-centric autonomous driving</b> that includes depth estimation, 3D object detection, and occpuacy prediction.
+                </li>
+              </p> -->
+              <p style="text-align:center">
+                <a href="mailto:zhengwz18@mails.tsinghua.eeu.cn">Email</a> &nbsp/&nbsp
+                <!-- <a href="files/CV_WenzhaoZheng.pdf">CV</a> &nbsp/&nbsp -->
+                <a href="https://scholar.google.com/citations?user=LdK9scgAAAAJ"> Google Scholar</a> &nbsp/&nbsp
+                <a href="https://github.com/wzzheng"> GitHub </a>
+              </p>
+            </td>
+            <td style="padding:2.5%;width:30%;max-width:30%">
+              <img style="width:50%;max-width:50%" alt="profile photo" src="images/wenzhaozheng.jpg">
+            </td>
+          </tr>
+        </tbody></table>
+
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr>
+          <td style="padding:20px;width:100%;vertical-align:middle">
+            <heading>News</heading>
+            <p>
+              <li style="margin: 5px;" >
+                <b>2023-01:</b> One paper on explainable deep networks is accepted to <a href="https://iclr.cc/Conferences/2023">ICLR 2023</a>.
+              <li style="margin: 5px;" >
+                <b>2023-01:</b> One paper on deep metric learning is accepted to <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34">T-PAMI</a>.
+              </li>
+              <li style="margin: 5px;" >
+                <b>2022-09:</b> One paper on 3D object detection is accepted to <a href="https://aaai.org/Conferences/AAAI-23/">AAAI 2023</a>.
+              </li>
+              <li style="margin: 5px;" >
+                <b>2022-09:</b> One paper on surrounding depth estimation is accepted to <a href="https://corl2022.org/">CoRL 2022</a>.
+              </li>
+              <li style="margin: 5px;" >
+                <b>2022-07:</b> One paper on dynamic metric learning is accepted to <a href="https://eccv2022.ecva.net/">ECCV 2022</a>.
+              </li>
+              <li style="margin: 5px;" >
+                <b>2022-03:</b> Two papers on explainable metric learning and 3D object detection are accepted to <a href="https://cvpr2022.thecvf.com/">CVPR 2022</a>.
+              </li>
+              <li style="margin: 5px;" >
+                <b>2021-07:</b> One paper on deep metric learning is accepted to <a href="http://iccv2021.thecvf.com/">ICCV 2021</a>.
+              </li>
+              <li style="margin: 5px;" >
+                <b>2021-02:</b> One paper on deep metric learning is accepted to <a href="https://cvpr2021.thecvf.com/">CVPR 2021</a>.
+              </li>
+              <li style="margin: 5px;" >
+                <b>2020-07:</b> One paper on room layout estimation is accepted to <a href="https://eccv2020.eu/">ECCV 2020</a>.
+              </li>
+            </p>
+          </td>
+        </tr>
+      </tbody></table>
+
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+            <td style="padding:20px;width:100%;vertical-align:middle">
+              <p><heading>Publications</heading></p>
+              <p>
+                * indicates equal contribution
+              </p>
+            </td>
+          </tr>
+        </tbody></table>
+
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+
+
+          <tr>
+            <td style="padding:20px;width:30%;max-width:30%" align="center">
+              <img style="width:100%;max-width:100%" src="images/TPVFormer.png" alt="dise">
+            </td>
+            <td width="75%" valign="center">
+              <papertitle>Tri-Perspective View for Vision-Based 3D Semantic Occupancy Prediction</papertitle>
+              <br>
+              Yuanhui Huang*, 
+              <strong>Wenzhao Zheng*</strong>, 
+              <a href="https://scholar.google.com/citations?user=UgadGL8AAAAJ&hl=zh-CN&oi=ao"> Yunpeng Zhang </a>, 
+              <a href="https://scholar.google.com/citations?user=6a79aPwAAAAJ&hl=en&authuser=1"> Jie Zhou </a>, 
+              <a href="http://ivg.au.tsinghua.edu.cn/Jiwen_Lu/"> Jiwen Lu </a>
+              <br>
+              <em><strong>arXiv</strong></em>, 2023.
+              <br>
+              <a href="https://arxiv.org">[arXiv] (coming soon)</a>
+              <a href="https://github.com/wzzheng/TPVFormer">[Code]</a>
+              <br>
+              <p> Given only surround-camera motorcycle RGB images barrier as inputs, our model (trained using trailer only sparse traffic cone LiDAR point supervision) can predict the semantic occupancy for all volumes in the 3D space. </p>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="padding:20px;width:30%;max-width:30%" align="center">
+              <img style="width:100%;max-width:100%" src="images/bort.png" alt="dise">
+            </td>
+            <td width="75%" valign="center">
+              <papertitle>Bort: Towards Explainable Neural Networks with Bounded Orthogonal Constraint</papertitle>
+              <br>
+              <a href="http://boruizhang.site/"> Borui Zhang</a>, 
+              <strong>Wenzhao Zheng</strong>, 
+              <a href="https://scholar.google.com/citations?user=6a79aPwAAAAJ&hl=en&authuser=1"> Jie Zhou </a>, 
+              <a href="http://ivg.au.tsinghua.edu.cn/Jiwen_Lu/"> Jiwen Lu </a>
+              <br>
+              <em>International Conference on Learning Representations (<strong>ICLR</strong>)</em>, 2023.
+              <br>
+              <a href="https://arxiv.org/abs/2212.09062">[arXiv]</a>
+              <a href="https://github.com/wzzheng">[Code] (coming soon)</a>
+              <br>
+              <p> This paper proposes Bort, an optimizer for improving model explainability with boundedness and orthogonality constraints on model parameters, derived from the sufficient conditions of model comprehensibility and transparency.</p>
+            </td>
+          </tr>
+
+
+          <tr>
+            <td style="padding:20px;width:30%;max-width:30%" align="center">
+              <img style="width:100%;max-width:100%" src="images/dml-dc.png" alt="dise">
+            </td>
+            <td width="75%" valign="center">
+              <papertitle>Deep Metric Learning with Adaptively Composite Dynamic Constraints</papertitle>
+              <br>
+              <strong>Wenzhao Zheng</strong>, 
+              <a href="http://ivg.au.tsinghua.edu.cn/Jiwen_Lu/"> Jiwen Lu </a>,
+              <a href="https://scholar.google.com/citations?user=6a79aPwAAAAJ&hl=en&authuser=1"> Jie Zhou </a>
+              <br>
+              <em>IEEE Transactions on Pattern Analysis and Machine Intelligence (<strong>T-PAMI</strong>, IF: 24.31)</em>, 2023.
+              <br>
+              <a href="https://cloud.tsinghua.edu.cn/f/04dfc89e8f684a0ab4a3/?dl=1">[PDF]</a>
+              <a href="https://github.com/wzzheng">[Code] (coming soon)</a>
+              <br>
+              <p> This paper formulates deep metric learning under a unified framework and propose a dynamic constraint generator to produce adaptive composite constraints to train the metric towards good generalization. </p>
+            </td>
+          </tr>
+
+
+          <tr>
+            <td style="padding:20px;width:30%;max-width:30%" align="center">
+              <img style="width:100%;max-width:100%" src="images/PDML.png" alt="dise">
+            </td>
+            <td width="75%" valign="center">
+              <papertitle>Probabilistic Deep Metric Learning for Hyperspectral Image Classification</papertitle>
+              <br>
+              Chengkun Wang,
+              <strong>Wenzhao Zheng</strong>, 
+              <a href="https://scholar.google.com.hk/citations?user=xWKPHDYAAAAJ&hl=zh-CN"> Xian Sun </a>,
+              <a href="http://ivg.au.tsinghua.edu.cn/Jiwen_Lu/"> Jiwen Lu </a>,
+              <a href="https://scholar.google.com/citations?user=6a79aPwAAAAJ&hl=en&authuser=1"> Jie Zhou </a> 
+              <br>
+              <em><strong>arXiv</strong></em>, 2022.
+              <br>
+              <a href="https://arxiv.org/abs/2211.08349">[arXiv]</a>
+              <a href="https://github.com/wzzheng/PDML">[Code]</a>
+              <br>
+              <p> We propose a probabilistic deep metric learning framework to model the categorical uncertainty of the spectral distribution of an observed pixel for Hyperspectral image classification. </p>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="padding:20px;width:30%;max-width:30%" align="center">
+              <img style="width:100%;max-width:100%" src="images/CLCD.png" alt="dise">
+            </td>
+            <td width="75%" valign="center">
+              <papertitle>Dynamic Metric Learning with Cross-Level Concept Distillation</papertitle>
+              <br>
+              <strong>Wenzhao Zheng</strong>, 
+              Yuanhui Huang,
+              <a href="http://boruizhang.site/"> Borui Zhang</a>, 
+              <a href="https://scholar.google.com/citations?user=6a79aPwAAAAJ&hl=en&authuser=1"> Jie Zhou </a>,
+              <a href="http://ivg.au.tsinghua.edu.cn/Jiwen_Lu/"> Jiwen Lu </a>
+              <br>
+              <em>European Conference on Computer Vision (<strong>ECCV</strong>)</em>, 2022.
+              <br>
+              <a href="https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136840194.pdf">[PDF]</a>
+              <a href="https://github.com/wzzheng/CLCD">[Code]</a>
+              <br>
+              <p> This paper propose a hierarchical concept refiner to construct multiple levels of concept embeddings of an image and them pull closer the distance of the corresponding concepts to facilitate the cross-level semantic structure of the image representations. </p>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="padding:20px;width:30%;max-width:30%" align="center">
+              <img style="width:100%;max-width:100%" src="images/TL-Align.png" alt="dise">
+            </td>
+            <td width="75%" valign="center">
+              <papertitle>Token-Label Alignment for Vision Transformers</papertitle>
+              <br>
+              <a href="https://scholar.google.com/citations?user=N-u2i-QAAAAJ&hl=zh-CN&oi=sra">  Han Xiao*</a>, 
+              <strong>Wenzhao Zheng*</strong>, 
+              <a href="https://scholar.google.com/citations?user=NmwjI0AAAAAJ&hl=zh-CN&oi=sra"> Zheng Zhu</a>, 
+              <a href="https://scholar.google.com/citations?user=6a79aPwAAAAJ&hl=en&authuser=1"> Jie Zhou </a>,
+              <a href="http://ivg.au.tsinghua.edu.cn/Jiwen_Lu/"> Jiwen Lu </a>
+              <br>
+              <em><strong>arXiv</strong></em>, 2022.
+              <br>
+              <a href="https://arxiv.org/abs/2210.06455">[arXiv]</a>
+              <a href="https://github.com/Euphoria16/TL-Align">[Code]</a>
+              <br>
+              <p> We identify a token fluctuation phenomenon that has suppressed the potential of data mixing strategies for vision transformers. To adress this, we propose a token-label alignment (TL-Align) method to trace the correspondence between transformed tokens and the original tokens to maintain a label for each token. </p>
+            </td>
+          </tr>
+
+
+          <tr>
+            <td style="padding:20px;width:30%;max-width:30%" align="center">
+              <img style="width:100%;max-width:100%" src="images/OPERA.png" alt="dise">
+            </td>
+            <td width="75%" valign="center">
+              <papertitle>OPERA: Omni-Supervised Representation Learning with Hierarchical Supervisions</papertitle>
+              <br>
+              Chengkun Wang*,
+              <strong>Wenzhao Zheng*</strong>, 
+              <a href="https://scholar.google.com/citations?user=NmwjI0AAAAAJ&hl=zh-CN&oi=sra"> Zheng Zhu</a>, 
+              <a href="https://scholar.google.com/citations?user=6a79aPwAAAAJ&hl=en&authuser=1"> Jie Zhou </a>,
+              <a href="http://ivg.au.tsinghua.edu.cn/Jiwen_Lu/"> Jiwen Lu </a>
+              <br>
+              <em><strong>arXiv</strong></em>, 2022.
+              <br>
+              <a href="https://arxiv.org/abs/2210.05557">[arXiv]</a>
+              <a href="https://github.com/wangck20/OPERA">[Code]</a>
+              <br>
+              <p> We unify fully supervised and self-supervised contrastive learning and exploit both supervisions from labeled and unlabeled data for training. </p>
+            </td>
+          </tr>
+
+
+
+          <tr>
+            <td style="padding:20px;width:30%;max-width:30%" align="center">
+              <img style="width:100%;max-width:100%" src="images/SimMOD.png" alt="dise">
+            </td>
+            <td width="75%" valign="center">
+              <papertitle>A Simple Baseline for Multi-Camera 3D Object Detection</papertitle>
+              <br>
+              <a href="https://scholar.google.com/citations?user=UgadGL8AAAAJ&hl=zh-CN&oi=ao"> Yunpeng Zhang </a>, 
+              <strong>Wenzhao Zheng</strong>, 
+              <a href="https://scholar.google.com/citations?user=NmwjI0AAAAAJ&hl=zh-CN&oi=sra"> Zheng Zhu</a>, 
+              Guan Huang,
+              <a href="https://scholar.google.com/citations?user=6a79aPwAAAAJ&hl=en&authuser=1"> Jie Zhou </a>,
+              <a href="http://ivg.au.tsinghua.edu.cn/Jiwen_Lu/"> Jiwen Lu </a>
+              <br>
+              <em>Thirty-Seventh AAAI Conference on Artificial Intelligence (<strong>AAAI</strong>)</em>, 2023.
+              <br>
+              <a href="https://arxiv.org/abs/2208.10035">[arXiv]</a>
+              <a href="https://github.com/zhangyp15/SimMOD">[Code]</a>
+              <br>
+              <p> We propose a simple baseline for multi-camera object detection to adapt existing monocular 3D object detection methods with a two-stage propose-and-fuse framework.</p>
+            </td>
+          </tr>
+
+
+          <tr>
+            <td style="padding:20px;width:30%;max-width:30%" align="center">
+              <img style="width:100%;max-width:100%" src="images/BEVerse.png" alt="dise">
+            </td>
+            <td width="75%" valign="center">
+              <papertitle>BEVerse: Unified Perception and Prediction in Birds-Eye-View for Vision-Centric Autonomous Driving</papertitle>
+              <br>
+              <a href="https://scholar.google.com/citations?user=UgadGL8AAAAJ&hl=zh-CN&oi=ao"> Yunpeng Zhang </a>, 
+              <a href="https://scholar.google.com/citations?user=NmwjI0AAAAAJ&hl=zh-CN&oi=sra"> Zheng Zhu</a>, 
+              <strong>Wenzhao Zheng</strong>, 
+              <a href="https://huangjunjie2017.github.io/"> Junjie Huang</a>, 
+              Guan Huang,
+              <a href="https://scholar.google.com/citations?user=6a79aPwAAAAJ&hl=en&authuser=1"> Jie Zhou </a>,
+              <a href="http://ivg.au.tsinghua.edu.cn/Jiwen_Lu/"> Jiwen Lu </a>
+              <br>
+              <em><strong>arXiv</strong></em>, 2022.
+              <br>
+              <a href="https://arxiv.org/abs/2205.09743">[arXiv]</a>
+              <a href="https://github.com/zhangyp15/BEVerse">[Code]</a>
+              <br>
+              <p> We propose a unified framework for 3D perception and prediction based on multi-camera systems. The multi-task BEVerse outperforms existing single-task methods on 3D object detection, semantic map construction, and motion prediction. </p>
+            </td>
+          </tr>
+
+
+          <tr>
+            <td style="padding:20px;width:30%;max-width:30%" align="center">
+              <img style="width:100%;max-width:100%" src="images/IDML.png" alt="dise">
+            </td>
+            <td width="75%" valign="center">
+              <papertitle>Introspective Deep Metric Learning</papertitle>
+              <br> 
+              Chengkun Wang*,
+              <strong>Wenzhao Zheng*</strong>, 
+              <a href="https://scholar.google.com/citations?user=NmwjI0AAAAAJ&hl=zh-CN&oi=sra"> Zheng Zhu</a>, 
+              <a href="https://scholar.google.com/citations?user=6a79aPwAAAAJ&hl=en&authuser=1"> Jie Zhou </a>,
+              <a href="http://ivg.au.tsinghua.edu.cn/Jiwen_Lu/"> Jiwen Lu </a>
+              <br>
+              <em><strong>arXiv</strong></em>, 2022.
+              <br>
+              <a href="https://arxiv.org/abs/2205.04449">[arXiv]</a>
+              <a href="https://github.com/wangck20/IDML">[Code]</a>
+              <br>
+              <p> We propose an introspective deep metric learning (IDML) framework for uncertainty-aware comparisons of images. </p>
+            </td>
+          </tr>
+
+
+          <tr>
+            <td style="padding:20px;width:30%;max-width:30%" align="center">
+              <img style="width:100%;max-width:100%" src="images/surrounddepth.gif" alt="dise">
+            </td>
+            <td width="75%" valign="center">
+              <papertitle>SurroundDepth: Entangling Surrounding Views for Self-Supervised Multi-Camera Depth Estimation</papertitle>
+              <br> 
+              <a href="https://weiyithu.github.io/"> Yi Wei*</a>, 
+              <a href="https://github.com/lqzhao"> Linqing Zhao*</a>, 
+              <strong>Wenzhao Zheng</strong>, 
+              <a href="https://scholar.google.com/citations?user=NmwjI0AAAAAJ&hl=zh-CN&oi=sra"> Zheng Zhu</a>, 
+              <a href="https://raoyongming.github.io/"> Yonming Rao</a>, 
+              Guan Huang,
+              <a href="http://ivg.au.tsinghua.edu.cn/Jiwen_Lu/"> Jiwen Lu </a>,
+              <a href="https://scholar.google.com/citations?user=6a79aPwAAAAJ&hl=en&authuser=1"> Jie Zhou </a>
+              <br>
+              <em>Conference on Robot Learning (<strong>CoRL</strong>)</em>, 2022.
+              <br>
+              <a href="https://arxiv.org/abs/2204.03636">[arXiv]</a>
+              <a href="https://github.com/weiyithu/SurroundDepth">[Code]</a>
+              <br>
+              <p> We propose a SurroundDepth method to incorporate the information from multiple surrounding views to predict depth maps across cameras. </p>
+            </td>
+          </tr>
+
+
+          <tr>
+            <td style="padding:20px;width:30%;max-width:30%" align="center">
+              <img style="width:100%;max-width:100%" src="images/Dimension.png" alt="dise">
+            </td>
+            <td width="75%" valign="center">
+              <papertitle>Dimension Embeddings for Monocular 3D Object Detection</papertitle>
+              <br>
+              <a href="https://scholar.google.com/citations?user=UgadGL8AAAAJ&hl=zh-CN&oi=ao"> Yunpeng Zhang </a>, 
+              <strong>Wenzhao Zheng</strong>, 
+              <a href="https://scholar.google.com/citations?user=NmwjI0AAAAAJ&hl=zh-CN&oi=sra"> Zheng Zhu</a>, 
+              Guan Huang,
+              Dalong Du,
+              <a href="https://scholar.google.com/citations?user=6a79aPwAAAAJ&hl=en&authuser=1"> Jie Zhou </a>,
+              <a href="http://ivg.au.tsinghua.edu.cn/Jiwen_Lu/"> Jiwen Lu </a>
+              <br>
+              <em>IEEE/CVF Conference on Computer Vision and Pattern Recognition (<strong>CVPR</strong>)</em>, 2022.
+              <br>
+              <a href="http://openaccess.thecvf.com/content/CVPR2022/papers/Zhang_Dimension_Embeddings_for_Monocular_3D_Object_Detection_CVPR_2022_paper.pdf">[PDF]</a>
+              <br>
+              <p> We propose a general method to learn appropriate embeddings for dimension estimation in monocular 3D object detection.</p>
+            </td>
+          </tr>
+
+
+          <tr>
+            <td style="padding:20px;width:30%;max-width:30%" align="center">
+              <img style="width:100%;max-width:100%" src="images/AVSL.png" alt="dise">
+            </td>
+            <td width="75%" valign="center">
+              <papertitle>Attributable visual similarity learning</papertitle>
+              <br>
+              <a href="http://boruizhang.site/"> Borui Zhang</a>, 
+              <strong>Wenzhao Zheng</strong>, 
+              <a href="https://scholar.google.com/citations?user=6a79aPwAAAAJ&hl=en&authuser=1"> Jie Zhou </a>, 
+              <a href="http://ivg.au.tsinghua.edu.cn/Jiwen_Lu/"> Jiwen Lu </a>
+              <br>
+              <em>IEEE/CVF Conference on Computer Vision and Pattern Recognition (<strong>CVPR</strong>)</em>, 2022.
+              <br>
+              <a href="https://arxiv.org/abs/2203.14932">[arXiv]</a>
+              <a href="https://github.com/zbr17/DRML">[Code]</a>
+              <br>
+              <p> This paper proposes an attributable visual similarity learning (AVSL) framework, which employs a generalized similarity learning paradigm to represent the similarity between two images with a graph for a more accurate and explainable similarity measure between images.</p>
+            </td> 
+          </tr>
+
+
+          <tr>
+            <td style="padding:20px;width:30%;max-width:30%" align="center">
+              <img style="width:100%;max-width:100%" src="images/DRML.png" alt="dise">
+            </td>
+            <td width="75%" valign="center">
+              <papertitle>Deep Relational Metric Learning</papertitle>
+              <br>
+              <strong>Wenzhao Zheng*</strong>, 
+              <a href="http://boruizhang.site/"> Borui Zhang*</a>, 
+              <a href="http://ivg.au.tsinghua.edu.cn/Jiwen_Lu/"> Jiwen Lu </a>,
+              <a href="https://scholar.google.com/citations?user=6a79aPwAAAAJ&hl=en&authuser=1"> Jie Zhou </a>
+              <br>
+              <em>IEEE International Conference on Computer Vision (<strong>ICCV</strong>)</em>, 2021.
+              <br>
+              <a href="http://arxiv.org/abs/2108.10026">[arXiv]</a>
+              <a href="https://github.com/zbr17/DRML">[Code]</a>
+              <br>
+              <p> We construct a graph to represent each image and perform relational inference to infer the visual similarity.</p>
+            </td> 
+          </tr>
+
+
+          <tr>
+            <td style="padding:20px;width:30%;max-width:30%" align="center">
+              <img style="width:100%;max-width:100%" src="images/DCML.png" alt="dise">
+            </td>
+            <td width="75%" valign="center">
+              <papertitle>Deep Compositional Metric Learning</papertitle>
+              <br>
+              <strong>Wenzhao Zheng</strong>, 
+              Chengkun Wang,
+              <a href="http://ivg.au.tsinghua.edu.cn/Jiwen_Lu/"> Jiwen Lu </a>,
+              <a href="https://scholar.google.com/citations?user=6a79aPwAAAAJ&hl=en&authuser=1"> Jie Zhou </a>
+              <br>
+              <em>IEEE/CVF Conference on Computer Vision and Pattern Recognition (<strong>CVPR</strong>)</em>, 2021.
+              <br>
+              <a href="https://openaccess.thecvf.com/content/CVPR2021/papers/Zheng_Deep_Compositional_Metric_Learning_CVPR_2021_paper.pdf">[PDF]</a>
+              <a href="https://github.com/wzzheng/dcml">[Code]</a>
+              <br>
+              <p> We adaptively learn a set of composites of embeddings to receive supervision signals from different tasks to improve the generalization of the learned embeddings without sacriﬁcing the discriminativeness.</p>
+            </td> 
+          </tr>
+
+
+          <tr>
+            <td style="padding:20px;width:30%;max-width:30%" align="center">
+              <img style="width:100%;max-width:100%" src="images/SDML.png" alt="dise">
+            </td>
+            <td width="75%" valign="center">
+              <papertitle>Structural Deep Metric Learning for Room Layout Estimation</papertitle>
+              <br>
+              <strong>Wenzhao Zheng</strong>, 
+              <a href="http://ivg.au.tsinghua.edu.cn/Jiwen_Lu/"> Jiwen Lu </a>
+              <a href="https://scholar.google.com/citations?user=6a79aPwAAAAJ&hl=en&authuser=1"> Jie Zhou </a>
+              <br>
+              <em>European Conference on Computer Vision (<strong>ECCV</strong>)</em>, 2020.
+              <br>
+              <a href="https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123630715.pdf">[PDF]</a>
+              <br>
+              <p> We are the first to apply deep metric learning to prediction tasks with structured labels.</p>
+            </td> 
+          </tr>
+
+          <tr>
+            <td style="padding:20px;width:30%;max-width:30%" align="center">
+              <img style="width:100%;max-width:100%" src="images/HDML_PAMI.png" alt="dise">
+            </td>
+            <td width="75%" valign="center">
+              <papertitle>Hardness-Aware Deep Metric Learning</papertitle>
+              <br>
+              <strong>Wenzhao Zheng</strong>, 
+              <a href="http://ivg.au.tsinghua.edu.cn/Jiwen_Lu/"> Jiwen Lu </a>,
+              <a href="https://scholar.google.com/citations?user=6a79aPwAAAAJ&hl=en&authuser=1"> Jie Zhou </a>
+              <br>
+              <em>IEEE Transactions on Pattern Analysis and Machine Intelligence (<strong>T-PAMI</strong>, IF: 24.31)</em>, 2021.
+              <br>
+              <a href="https://cloud.tsinghua.edu.cn/f/6b71a06d277449c481a0/?dl=1">[PDF]</a>
+              <a href="https://github.com/wzzheng/hdml">[Code]</a>
+              <br>
+              <p> We extend the previous conference-verision HDML to generate multiple synthetics for each sample.</p>
+            </td> 
+          </tr>
+
+          <tr>
+            <td style="padding:20px;width:30%;max-width:30%" align="center">
+              <img style="width:100%;max-width:100%" src="images/DML-ALA.png" alt="dise">
+            </td>
+            <td width="75%" valign="center">
+              <papertitle>Deep Metric Learning via Adaptive Learnable Assessment</papertitle>
+              <br>
+              <strong>Wenzhao Zheng</strong>, 
+              <a href="http://ivg.au.tsinghua.edu.cn/Jiwen_Lu/"> Jiwen Lu </a>,
+              <a href="https://scholar.google.com/citations?user=6a79aPwAAAAJ&hl=en&authuser=1"> Jie Zhou </a>
+              <br>
+              <em>IEEE/CVF Conference on Computer Vision and Pattern Recognition (<strong>CVPR</strong>)</em>, 2020.
+              <br>
+              <a href="https://openaccess.thecvf.com/content_CVPR_2020/papers/Zheng_Deep_Metric_Learning_via_Adaptive_Learnable_Assessment_CVPR_2020_paper.pdf">[PDF]</a>
+              <br>
+              <p> We learn a sample assessment strategy for deep metric learning to maximize the generalization of the trained metric.</p>
+            </td> 
+          </tr>
+
+
+          <tr>
+            <td style="padding:20px;width:30%;max-width:30%" align="center">
+              <img style="width:100%;max-width:100%" src="images/DAML-TIP.png" alt="dise">
+            </td>
+            <td width="75%" valign="center">
+              <papertitle>Deep Adversarial Metric Learning</papertitle>
+              <br>
+              <a href="https://duanyueqi.github.io/"> Yueqi Duan </a>,
+              <a href="http://ivg.au.tsinghua.edu.cn/Jiwen_Lu/"> Jiwen Lu </a>,
+              <strong>Wenzhao Zheng</strong>, 
+              <a href="https://scholar.google.com/citations?user=6a79aPwAAAAJ&hl=en&authuser=1"> Jie Zhou </a>
+              <br>
+              <em>IEEE Transactions on Image Processing (<strong>T-IP</strong>, IF: 11.041)</strong></em>, 2020.
+              <br>
+              <a href="https://cloud.tsinghua.edu.cn/f/eb9f18e4721f474a93db/?dl=1">[PDF]</a>
+              <a href="https://github.com/anonymous1computervision/DAML">[Code]</a>
+              <br>
+              <p> We propose a deep adversarial multi-metric learning (DAMML) method by learning multiple local transformations for more complete description.</p>
+            </td> 
+          </tr>
+
+
+          <tr>
+            <td style="padding:20px;width:30%;max-width:30%" align="center">
+              <img style="width:100%;max-width:100%" src="images/HDML.png" alt="dise">
+            </td>
+            <td width="75%" valign="center">
+              <papertitle>Hardness-Aware Deep Metric Learning</papertitle>
+              <br>
+              <strong>Wenzhao Zheng</strong>, 
+              <a href="https://apuaachen.github.io/Zhaodong-Chen/"> Zhaodong Chen </a>,
+              <a href="http://ivg.au.tsinghua.edu.cn/Jiwen_Lu/"> Jiwen Lu </a>,
+              <a href="https://scholar.google.com/citations?user=6a79aPwAAAAJ&hl=en&authuser=1"> Jie Zhou </a>
+              <br>
+              <em>IEEE/CVF Conference on Computer Vision and Pattern Recognition (<strong>CVPR</strong>)</em>, 2019 <em>(<strong style="color:red;">oral</strong>)</em>.
+              <br>
+              <a href="https://openaccess.thecvf.com/content_CVPR_2019/papers/Zheng_Hardness-Aware_Deep_Metric_Learning_CVPR_2019_paper.pdf">[PDF]</a>
+              <a href="https://github.com/wzzheng/hdml">[Code]</a>
+              <br>
+              <p> We perform linear interpolation on embeddings to adaptively manipulate their hardness levels and generate corresponding label-preserving synthetics for recycled training.</p>
+            </td> 
+          </tr>
+
+
+
+          <tr>
+            <td style="padding:20px;width:30%;max-width:30%" align="center">
+              <img style="width:100%;max-width:100%" src="images/DAML.png" alt="dise">
+            </td>
+            <td width="75%" valign="center">
+              <papertitle>Deep Adversarial Metric Learning</papertitle>
+              <br>
+              <a href="https://duanyueqi.github.io/"> Yueqi Duan </a>,
+              <strong>Wenzhao Zheng</strong>, 
+              <a href="http://ivg.au.tsinghua.edu.cn/Jiwen_Lu/"> Jiwen Lu </a>,
+              <a href="https://scholar.google.com/citations?user=6a79aPwAAAAJ&hl=en&authuser=1"> Jie Zhou </a>
+              <br>
+              <em>IEEE/CVF Conference on Computer Vision and Pattern Recognition (<strong>CVPR</strong>)</em>, 2018 <em>(<strong style="color:red;">spotlight</strong>)</em>.
+              <br>
+              <a href="https://openaccess.thecvf.com/content_cvpr_2018/papers/Duan_Deep_Adversarial_Metric_CVPR_2018_paper.pdf">[PDF]</a>
+              <a href="https://github.com/anonymous1computervision/DAML">[Code]</a>
+              <br>
+              <p> We generate potential hard negatives adversarial to the learned metric as complements.</p>
+            </td> 
+          </tr>
+
+
+
+
+
+
+
+
+
+
+
+
+        </tbody></table>
+
+          <!-- <div id="click">
+            <p align=right><a href="#Show-the-full-publication-list" style="padding:20px;" onclick="showStuff(this);">Full publication list</a></p>
+           </div>
+           <script>
+             function showStuff(txt) {
+               document.getElementById("full").style.display = "block";
+               document.getElementById("click").style.display = "none";
+              //  document.getElementById("selected").style.display = "none";
+             }
+             </script>
+
+      <div id="full">
+
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+          
+        
+      </tbody></table>
+      </div> -->
+
+
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+            <td style="padding:20px;width:100%;vertical-align:middle">
+              <heading>Honors and Awards</heading>
+              <p>
+                <li style="margin: 5px;"> 2022 Xuancheng Scholarship</li>
+                <li style="margin: 5px;"> 2021 National Scholarship</li>
+                <li style="margin: 5px;"> CVPR 2021 Outstanding Reviewer</li>
+                <li style="margin: 5px;"> 2020 Changtong Scholarship</li>
+                <li style="margin: 5px;"> 2019 National Scholarship</li>
+                <li style="margin: 5px;"> 2017 Tung OOCL Scholarship</li>
+                <li style="margin: 5px;"> 2016 German Scholarship</li>
+              </p>
+            </td>
+          </tr>
+        </tbody></table>
+
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr>
+          <td style="padding:20px;width:100%;vertical-align:middle">
+            <heading>Academic Services</heading>
+            <p>
+              <li style="margin: 5px;"> 
+                <b>Conference Reviewer / PC Member:</b> CVPR 2019-2022, ICCV 2019-2021, ECCV 2020-2022, IJCAI 2020-2022, WACV 2020-2022, ICME 2019-2022, 
+              </li>
+              <li style="margin: 5px;"> 
+                <b>Senior PC Member:</b> IJCAI 2021
+              </li>
+              <li style="margin: 5px;"> 
+                <b>Journal Reviewer:</b> T-PAMI, T-NNLS, T-IP, T-BIOM, T-IST, Pattern Recognition, Pattern Recognition Letters
+              </li>
+            </p>
+          </td>
+        </tr>
+      </tbody></table>
+       
+  
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr>
+            <td style="padding:0px">
+              <br>
+              <p style="text-align:right;font-size:small;">
+                <a href="https://jonbarron.info/">Website Template</a>
+              </p>
+            </td>
+          </tr>
+        </tbody></table>
+      </td>
+    </tr>
+  </table>
+ 
+<p><center>
+	  <div id="clustrmaps-widget" style="width:5%">
+	  <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=yp3s8rdiQW_pbzmBOzWDx2Fv6afIlEpV-k1EZiYIkEY"></script>
+	  </div>        
+	  <br>
+	    &copy; Wenzhao Zheng | Last updated: Feb 13, 2023
+</center></p>
+</body>
+
+</html>
