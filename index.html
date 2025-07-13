@@ -64,6 +64,18 @@
             <heading>News</heading>
             <p>
               <li style="margin: 5px;" >
+                <b>2025-06:</b> Six papers are accepted to <a href="https://iccv.thecvf.com/">ICCV 2025</a>.
+              </li>
+              <li style="margin: 5px;" >
+                <b>2025-06:</b> One paper on visual SLAM is accepted to <a href="https://www.iros25.org/">IROS 2025</a>.
+              </li>
+              <li style="margin: 5px;" >
+                <b>2025-05:</b> One paper on efficient VLM inference is accepted to <a href="https://icml.cc/Conferences/2025">ICML 2025</a>.
+              </li>
+              <li style="margin: 5px;" >
+                <b>2025-02:</b> Four papers are accepted to <a href="https://cvpr.thecvf.com/">CVPR 2025</a>.
+              </li>
+              <li style="margin: 5px;" >
                 <b>2025-01:</b> Twp papers on indoor and outdoor 3D reconstruction is accepted to <a href="https://2025.ieee-icra.org/">ICRA 2025</a>.
               </li>
               <li style="margin: 5px;" >
@@ -110,146 +122,156 @@
 
     <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
+        <tr>
+          <td style="padding:20px;width:30%;max-width:30%" align="center">
+            <img style="width:100%;max-width:100%" src="images/StreamVGGT.png" alt="dise">
+          </td>
+          <td width="75%" valign="center">
+            <papertitle>Streaming 4D Visual Geometry Transformer</papertitle>
+            <br>  
+              <a href="">Dong Zhuo*</a>, 
+              <strong>Wenzhao Zheng*<sup>†</sup></strong>, 
+              <a href="">Jiahe Guo</a>, 
+              <a href="https://github.com/YkiWu">Yuqi Wu</a>, 
+              <a href="https://scholar.google.com/citations?user=6a79aPwAAAAJ&hl=en&authuser=1"> Jie Zhou </a>, 
+              <a href="http://ivg.au.tsinghua.edu.cn/Jiwen_Lu/"> Jiwen Lu </a>
+            <br>
+            <em>arXiv</em>, 2025.
+            <br>
+            <a href="https://arxiv.org/abs/2507.02863">[arXiv]</a> 
+            <a href="https://github.com/wzzheng/StreamVGGT">[Code]</a>
+            <iframe
+            style="margin-left: 2px; margin-bottom:-5px;"
+            frameborder="0" scrolling="0" width="91px" height="20px"
+            src="https://ghbtns.com/github-btn.html?user=wzzheng&repo=StreamVGGT&type=star&count=true" >
+            </iframe>
+            <a href="https://wzzheng.net/Point3R/">[Project Page]</a>
+            <!-- <a href="https://zhuanlan.zhihu.com/p/12867656844">[中文解读 (in Chinese)]</a> -->
+            <br>
+            <p> StreamVGGT employs temporal causal attention and leverages cached token memory to support efficient incremental on-the-fly reconstruction, enabling interative and real-time online applitions  </p>
+          </td>
+        </tr>
+
+
+        <tr>
+          <td style="padding:20px;width:30%;max-width:30%" align="center">
+            <img style="width:100%;max-width:100%" src="images/Point3R.png" alt="dise">
+          </td>
+          <td width="75%" valign="center">
+            <papertitle>Point3R: Streaming 3D Reconstruction with Explicit Spatial Pointer Memory</papertitle>
+            <br> 
+              <a href="https://github.com/YkiWu">Yuqi Wu*</a>,  
+              <strong>Wenzhao Zheng*<sup>†</sup></strong>, 
+              <a href="https://scholar.google.com/citations?user=6a79aPwAAAAJ&hl=en&authuser=1"> Jie Zhou </a>, 
+              <a href="http://ivg.au.tsinghua.edu.cn/Jiwen_Lu/"> Jiwen Lu </a>
+            <br>
+            <em>arXiv</em>, 2025.
+            <br>
+            <a href="https://arxiv.org/abs/2507.02863">[arXiv]</a> 
+            <a href="https://github.com/YkiWu/Point3R">[Code]</a>
+            <iframe
+            style="margin-left: 2px; margin-bottom:-5px;"
+            frameborder="0" scrolling="0" width="91px" height="20px"
+            src="https://ghbtns.com/github-btn.html?user=YkiWu&repo=Point3R&type=star&count=true" >
+            </iframe>
+            <a href="https://ykiwu.github.io/Point3R/">[Project Page]</a>
+            <!-- <a href="https://zhuanlan.zhihu.com/p/12867656844">[中文解读 (in Chinese)]</a> -->
+            <br>
+            <p> Point3R is an online framework for dense streaming 3D reconstruction using explicit spatial memory, which achieves competitive performance with low training costs.  </p>
+          </td>
+        </tr>
+
+
+
       <tr>
         <td style="padding:20px;width:30%;max-width:30%" align="center">
-          <img style="width:100%;max-width:100%" src="images/GaussianToken.png" alt="dise">
+          <img style="width:100%;max-width:100%" src="images/GenWorld.png" alt="dise">
         </td>
         <td width="75%" valign="center">
-          <papertitle>GaussianToken: An Effective Image Tokenizer with 2D Gaussian Splatting</papertitle>
+          <papertitle>GenWorld: Towards Detecting AI-generated Real-world Simulation Videos</papertitle>
           <br> 
-          <a href=""> Jiajun Dong*</a>, 
-          <a href="https://scholar.google.com/citations?user=69-8jtcAAAAJ"> Chengkun Wang*</a>,
-          <strong>Wenzhao Zheng<sup>†</sup></strong>, 
-          <a href="https://leichenthu.github.io/">Lei Chen</a>, 
-          <a href="http://ivg.au.tsinghua.edu.cn/Jiwen_Lu/"> Jiwen Lu</a>,
-          <a href="https://andytang15.github.io/"> Yansong Tang</a>
+              <a href="https://chen-wl20.github.io/"> Weiliang Chen</a>,
+              <strong>Wenzhao Zheng<sup>†</sup></strong>, 
+              <a href="https://yzheng97.github.io/">Yu Zheng</a>,
+              <a href="https://leichenthu.github.io/">Lei Chen</a>, 
+              <a href="https://scholar.google.com/citations?user=6a79aPwAAAAJ&hl=en&authuser=1"> Jie Zhou </a>, 
+              <a href="http://ivg.au.tsinghua.edu.cn/Jiwen_Lu/"> Jiwen Lu </a>,
+              <a href="https://duanyueqi.github.io/"> Yueqi Duan </a>
           <br>
           <em><strong>arXiv</strong></em>, 2025.
           <br>
-          <a href="https://arxiv.org/abs/2501.15619">[arXiv]</a> 
-          <a href="https://github.com/ChrisDong-THU/GaussianToken">[Code]</a>
+          <a href="https://arxiv.org/abs/2506.10975">[arXiv]</a> 
+          <a href="https://github.com/chen-wl20/GenWorld">[Code]</a>
           <iframe
           style="margin-left: 2px; margin-bottom:-5px;"
           frameborder="0" scrolling="0" width="91px" height="20px"
-          src="https://ghbtns.com/github-btn.html?user=ChrisDong-THU&repo=GaussianToken&type=star&count=true" >
+          src="https://ghbtns.com/github-btn.html?user=chen-wl20&repo=GenWorld&type=star&count=true" >
+          </iframe>
+          <a href="https://chen-wl20.github.io/GenWorld/">[Project Page]</a>
+          <!-- <a href="https://mp.weixin.qq.com/s?__biz=MzU4NjQ1NzQyNQ==&mid=2247486813&idx=1&sn=a17268e992e758b6b163c2d94eed6cb5&chksm=fcd6a19ab897918046a1f0b997d312e8a8d01ad9aafa38615ecefdf2f68cfb95a267b8f0ca25&mpshare=1&scene=1&srcid=0131JRQQdlxwyTP7HDo4d0BT&sharer_shareinfo=310108161e2f4bda7291cfbbff104f1d&sharer_shareinfo_first=6b27789183ea7efa584ca5ae176dfe55#rd">[中文解读 (in Chinese)]</a> -->
+          <br>
+          <p> GenWorld features three key characteristics: 1) Real-world Simulation, 2) High Quality, and 3) Cross-prompt Diversity, which can serve as a foundation for AI-generated video detection research with practical significance.</p>
+        </td>
+      </tr>
+
+
+      <tr>
+        <td style="padding:20px;width:30%;max-width:30%" align="center">
+          <img style="width:100%;max-width:100%" src="images/QuadricFormer.png" alt="dise">
+        </td>
+        <td width="75%" valign="center">
+          <papertitle>QuadricFormer: Scene as Superquadrics for 3D Semantic Occupancy Prediction</papertitle>
+          <br>  
+            <a href="https://scholar.google.com/citations?user=11kh6C4AAAAJ"> Sicheng Zuo*</a>,
+            <strong>Wenzhao Zheng*<sup>†</sup></strong>, 
+            <a href="">Xiaoyong Han*</a>,
+            <a href="">Longchao Yang</a>,
+            <a href="">Yong Pan</a>,
+              <a href="http://ivg.au.tsinghua.edu.cn/Jiwen_Lu/"> Jiwen Lu </a>
+          <br>
+          <em><strong>arXiv</strong></em>, 2025.
+          <br>
+          <a href="https://arxiv.org/abs/2506.10977">[arXiv]</a> 
+          <a href="https://github.com/zuosc19/QuadricFormer">[Code]</a>
+          <iframe
+          style="margin-left: 2px; margin-bottom:-5px;"
+          frameborder="0" scrolling="0" width="91px" height="20px"
+          src="https://ghbtns.com/github-btn.html?user=zuosc19&repo=QuadricFormer&type=star&count=true" >
           </iframe>
           <!-- <a href="https://wzzheng.net/OccWorld/">[Project Page]</a> -->
-          <a href="https://mp.weixin.qq.com/s?__biz=MzU4NjQ1NzQyNQ==&mid=2247486813&idx=1&sn=a17268e992e758b6b163c2d94eed6cb5&chksm=fcd6a19ab897918046a1f0b997d312e8a8d01ad9aafa38615ecefdf2f68cfb95a267b8f0ca25&mpshare=1&scene=1&srcid=0131JRQQdlxwyTP7HDo4d0BT&sharer_shareinfo=310108161e2f4bda7291cfbbff104f1d&sharer_shareinfo_first=6b27789183ea7efa584ca5ae176dfe55#rd">[中文解读 (in Chinese)]</a>
+          <!-- <a href="https://zhuanlan.zhihu.com/p/16608177027">[中文解读 (in Chinese)]</a> -->
           <br>
-          <p> GaussianToken represents each image by a set of 2D Gaussian tokens in a feed-forward manner.</p>
+          <p> QuadricFormer proposes geometrically expressive superquadrics as scene primitives, enabling efficient and powerful object-centric representation of driving scenes.</p>
         </td>
       </tr>
 
 
       <tr>
         <td style="padding:20px;width:30%;max-width:30%" align="center">
-          <img style="width:100%;max-width:100%" src="./images/UniDrive.png" alt="dise">
+          <img style="width:100%;max-width:100%" src="images/SceneCompleter.png" alt="dise">
         </td>
         <td width="75%" valign="center">
-          <papertitle>UniDrive: Towards Universal Driving Perception Across Camera Configurations</papertitle>
+          <papertitle>SceneCompleter: Dense 3D Scene Completion for Generative Novel View Synthesis</papertitle>
           <br> 
-          <a href="https://github.com/LeningWang"> Ye Li</a>, 
-          <strong>Wenzhao Zheng<sup>†</sup></strong>, 
-          <a href="https://robotics.umich.edu/profile/xiaonan-sean-huang/"> Xiaonan Huang </a>,
-          <a href="https://people.eecs.berkeley.edu/~keutzer/"> Kurt Keutzer </a>
+              <a href="https://chen-wl20.github.io/"> Weiliang Chen</a>,
+              <a href="">Jiayi Bi</a>,
+              <a href="https://huang-yh.github.io/"> Yuanhui Huang</a>, 
+              <strong>Wenzhao Zheng<sup>†</sup></strong>, 
+              <a href="https://duanyueqi.github.io/"> Yueqi Duan </a>
           <br>
-          <em>International Conference on Learning Representations (<strong>ICLR</strong>)</em>, 2025.
+          <em><strong>arXiv</strong></em>, 2025.
           <br>
-          <a href="https://arxiv.org/abs/2410.13864">[arXiv]</a> 
-          <a href="https://github.com/ywyeli/UniDrive">[Code]</a>
+          <a href="https://arxiv.org/abs/2506.10981">[arXiv]</a> 
+          <a href="https://github.com/chen-wl20/SceneCompleter">[Code]</a>
           <iframe
           style="margin-left: 2px; margin-bottom:-5px;"
           frameborder="0" scrolling="0" width="91px" height="20px"
-          src="https://ghbtns.com/github-btn.html?user=ywyeli&repo=UniDrive&type=star&count=true" >
+          src="https://ghbtns.com/github-btn.html?user=chen-wl20&repo=SceneCompleter&type=star&count=true" >
           </iframe>
-          <a href="https://wzzheng.net/UniDrive/">[Project Page]</a>
-          <a href="https://zhuanlan.zhihu.com/p/3904342108">[中文解读 (in Chinese)]</a>
+          <a href="https://chen-wl20.github.io/SceneCompleter/">[Project Page]</a>
+          <!-- <a href="https://mp.weixin.qq.com/s?__biz=MzU4NjQ1NzQyNQ==&mid=2247486813&idx=1&sn=a17268e992e758b6b163c2d94eed6cb5&chksm=fcd6a19ab897918046a1f0b997d312e8a8d01ad9aafa38615ecefdf2f68cfb95a267b8f0ca25&mpshare=1&scene=1&srcid=0131JRQQdlxwyTP7HDo4d0BT&sharer_shareinfo=310108161e2f4bda7291cfbbff104f1d&sharer_shareinfo_first=6b27789183ea7efa584ca5ae176dfe55#rd">[中文解读 (in Chinese)]</a> -->
           <br>
-          <p> UniDrive presents the first comprehensive framework designed to generalize vision-centric 3D perception models across diverse camera configurations. </p>
-        </td>
-      </tr>
-
-      <tr>
-        <td style="padding:20px;width:30%;max-width:30%" align="center">
-          <img style="width:100%;max-width:100%" src="images/GaussianFormer-2.png" alt="dise">
-        </td>
-        <td width="75%" valign="center">
-          <papertitle>GaussianFormer-2: Probabilistic Gaussian Superposition for Efficient 3D Occupancy Prediction</papertitle>
-          <br> 
-          <a href="https://scholar.google.com/citations?&user=LKVgsk4AAAAJ">Yuanhui Huang</a>, 
-          <a href="">Amonnut Thammatadatrakoon</a>, 
-          <strong>Wenzhao Zheng<sup>†</sup></strong>, 
-          <a href="https://scholar.google.com/citations?user=UgadGL8AAAAJ&hl=zh-CN&oi=ao"> Yunpeng Zhang</a>, 
-          <a href="">Dalong Du</a>, 
-          <a href="http://ivg.au.tsinghua.edu.cn/Jiwen_Lu/"> Jiwen Lu </a>
-          <br>
-          <em><strong>arXiv</strong></em>, 2024.
-          <br>
-          <a href="https://arxiv.org/abs/2412.04384">[arXiv]</a> 
-          <a href="https://github.com/huang-yh/GaussianFormer">[Code]</a>
-          <iframe
-          style="margin-left: 2px; margin-bottom:-5px;"
-          frameborder="0" scrolling="0" width="91px" height="20px"
-          src="https://ghbtns.com/github-btn.html?user=huang-yh&repo=GaussianFormer&type=star&count=true" >
-          </iframe>
-          <a href="https://wzzheng.net/GaussianFormer/">[Project Page]</a>
-          <!-- <a href="https://zhuanlan.zhihu.com/p/700833107">[中文解读 (in Chinese)]</a> -->
-          <br>
-          <p> GaussianFormer-2 interprets each Gaussian as a probability distribution of its neighborhood being occupied and conforms to probabilistic multiplication to derive the overall geometry.</p>
-        </td>
-      </tr>    
-
-      <tr>
-        <td style="padding:20px;width:30%;max-width:30%" align="center">
-          <img style="width:100%;max-width:100%" src="images/GlobalMamba.png" alt="dise">
-        </td>
-        <td width="75%" valign="center">
-          <papertitle>GlobalMamba: Global Image Serialization for Vision Mamba</papertitle>
-          <br>
-          <a href="https://scholar.google.com/citations?user=69-8jtcAAAAJ"> Chengkun Wang*</a>,
-          <strong>Wenzhao Zheng*<sup>†</sup></strong>,
-          <a href="https://scholar.google.com/citations?user=6a79aPwAAAAJ&hl=en&authuser=1"> Jie Zhou</a>,
-          <a href="http://ivg.au.tsinghua.edu.cn/Jiwen_Lu/"> Jiwen Lu</a>
-          <br>
-          <em><strong>arXiv</strong></em>, 2024.
-          <br>
-          <a href="https://arxiv.org/abs/2410.10316">[arXiv]</a>
-          <a href="https://github.com/wangck20/GlobalMamba">[Code]</a>
-          <iframe
-          style="margin-left: 2px; margin-bottom:-5px;"
-          frameborder="0" scrolling="0" width="91px" height="20px"
-          src="https://ghbtns.com/github-btn.html?user=wangck20&repo=GlobalMamba&type=star&count=true" >
-          </iframe>
-          <br>
-          <p> GlobalMamba constructs a causal token sequence by frequency, while ensuring that tokens acquire global feature information.</p>
-        </td>
-      </tr>
-
-
-      <tr>
-        <td style="padding:20px;width:30%;max-width:30%" align="center">
-          <img style="width:100%;max-width:100%" src="images/V2M.png" alt="dise">
-        </td>
-        <td width="75%" valign="center">
-          <papertitle>V2M: Visual 2-Dimensional Mamba for Image Representation Learning</papertitle>
-          <br>
-          <a href="https://scholar.google.com/citations?user=69-8jtcAAAAJ"> Chengkun Wang*</a>,
-          <strong>Wenzhao Zheng*<sup>†</sup></strong>,
-          <a href="https://scholar.google.com/citations?&user=LKVgsk4AAAAJ">Yuanhui Huang</a>, 
-          <a href="https://scholar.google.com/citations?user=6a79aPwAAAAJ&hl=en&authuser=1"> Jie Zhou</a>,
-          <a href="http://ivg.au.tsinghua.edu.cn/Jiwen_Lu/"> Jiwen Lu</a>
-          <br>
-          <em><strong>arXiv</strong></em>, 2024.
-          <br>
-          <a href="https://arxiv.org/abs/2410.10382">[arXiv]</a>
-          <a href="https://github.com/wangck20/V2M">[Code]</a>
-          <iframe
-          style="margin-left: 2px; margin-bottom:-5px;"
-          frameborder="0" scrolling="0" width="91px" height="20px"
-          src="https://ghbtns.com/github-btn.html?user=wangck20&repo=V2M&type=star&count=true" >
-          </iframe>
-          <br>
-          <p>Visual 2-Dimensional Mamba (V2M) generalize SSM to the 2-dimensional space and generates the next state considering two adjacent states on both dimensions (e.g., columns and rows) which directly processes image tokens in the 2D space.</p>
+          <p> SceneCompleter explores 3D scene completion for generative novel view synthesis by jointly modeling geometry and appearance.</p>
         </td>
       </tr>
 
@@ -273,7 +295,7 @@
 
           
 
-          <h3 style="text-indent:20px;color:brown">World Models</h3>
+          <h3 style="text-indent:20px;color:brown">World Model</h3>
 
           <tr>
             <td style="padding:20px;width:30%;max-width:30%" align="center">
@@ -298,12 +320,73 @@
               <iframe
               style="margin-left: 2px; margin-bottom:-5px;"
               frameborder="0" scrolling="0" width="91px" height="20px"
-              src="https://ghbtns.com/github-btn.html?user=huang-yh&repo=Owl&type=star&count=true" >
+              src="https://ghbtns.com/github-btn.html?user=huang-yh&repo=Owl&type=star&count=true">
               </iframe>
               <!-- <a href="https://wzzheng.net/OccWorld/">[Project Page]</a> -->
               <a href="https://www.jiqizhixin.com/articles/2025-01-15">[中文解读 (in Chinese)]</a>
               <br>
               <p> Owl-1 approaches consistent long video generation with an omni world model, which models the evolution of the underlying world with latent state, explicit observation and world dynamics variables.  </p>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="padding:20px;width:30%;max-width:30%" align="center">
+              <img style="width:100%;max-width:100%" src="images/GeoDrive.png" alt="dise">
+            </td>
+            <td width="75%" valign="center">
+              <papertitle>GeoDrive: 3D Geometry-Informed Driving World Model with Precise Action Control</papertitle>
+              <br> 
+              <a href="https://antonioo-c.github.io/"> Anthony Chen* </a>, 
+              <strong>Wenzhao Zheng*<sup>†</sup></strong>, 
+              <a href="https://wangyida.github.io/"> Yida Wang* </a>,  
+              <a href=""> Xueyang Zhang </a>,  
+              <a href=""> Kun Zhan </a>,  
+              <a href=""> Peng Jia </a>,  
+              <a href="https://people.eecs.berkeley.edu/~keutzer/"> Kurt Keutzer</a>,
+              <a href="https://www.shanghangzhang.com/"> Shanghang Zhang</a>
+              <br>
+              <em><strong>arXiv</strong></em>, 2025.
+              <br>
+              <a href="https://arxiv.org/abs/2505.22421">[arXiv]</a> 
+              <a href="https://github.com/antonioo-c/GeoDrive">[Code]</a>
+              <iframe
+              style="margin-left: 2px; margin-bottom:-5px;"
+              frameborder="0" scrolling="0" width="91px" height="20px"
+              src="https://ghbtns.com/github-btn.html?user=antonioo-c&repo=GeoDrive&type=star&count=true">
+              </iframe>
+              <a href="https://www.youtube.com/watch?v=LECkvCff6v0&ab_channel=aifreshboy">[Project Page]</a>
+              <a href="https://zhuanlan.zhihu.com/p/1915939289679757511">[中文解读 (in Chinese)]</a>
+              <br>
+              <p> GeoDrive integrates robust 3D conditions into driving world models, enhancing spatial understanding and action controllability.</p>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="padding:20px;width:30%;max-width:30%" align="center">
+              <img style="width:100%;max-width:100%" src="images/GaussianWorld.png" alt="dise">
+            </td>
+            <td width="75%" valign="center">
+              <papertitle>GaussianWorld: Gaussian World Model for Streaming 3D Occupancy Prediction</papertitle>
+              <br>  
+              <a href="https://scholar.google.com/citations?user=11kh6C4AAAAJ"> Sicheng Zuo*</a>,
+              <strong>Wenzhao Zheng*<sup>†</sup></strong>, 
+              <a href="https://scholar.google.com/citations?&user=LKVgsk4AAAAJ"> Yuanhui Huang </a>, 
+              <a href="https://scholar.google.com/citations?user=6a79aPwAAAAJ&hl=en&authuser=1"> Jie Zhou </a>, 
+              <a href="http://ivg.au.tsinghua.edu.cn/Jiwen_Lu/"> Jiwen Lu </a>
+              <br>
+              <em>IEEE/CVF Conference on Computer Vision and Pattern Recognition (<strong>CVPR</strong>)</em>, 2025.
+              <br>
+              <a href="https://arxiv.org/abs/2412.10373">[arXiv]</a> 
+              <a href="https://github.com/zuosc19/GaussianWorld">[Code]</a>
+              <iframe
+              style="margin-left: 2px; margin-bottom:-5px;"
+              frameborder="0" scrolling="0" width="91px" height="20px"
+              src="https://ghbtns.com/github-btn.html?user=zuosc19&repo=GaussianWorld&type=star&count=true" >
+              </iframe>
+              <!-- <a href="https://wzzheng.net/OccWorld/">[Project Page]</a> -->
+              <a href="https://zhuanlan.zhihu.com/p/17968801773">[中文解读 (in Chinese)]</a>
+              <br>
+              <p> GaussianWorld reformulates 3D occupancy prediction as a 4D occupancy forecasting problem conditioned on the current sensor input and propose a Gaussian World Model to exploit the scene evolution for perception.</p>
             </td>
           </tr>
 
@@ -341,9 +424,8 @@
         </tbody></table>
 
 
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-
-          <h3 style="text-indent:20px;color:brown">Efficient Large Models</h3>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody></tbody>
+          <h3 style="text-indent:20px;color:brown">Efficient Large Model</h3>
 
 
           <tr>
@@ -365,7 +447,7 @@
               <a href="https://people.eecs.berkeley.edu/~keutzer/"> Kurt Keutzer</a>,
               <a href="https://www.shanghangzhang.com/"> Shanghang Zhang</a>
               <br>
-              <em><strong>arXiv</strong></em>, 2024.
+              <em>International Conference on Machine Learning (<strong>ICML</strong></em>), 2025.
               <br>
               <a href="https://arxiv.org/abs/2410.04417">[arXiv]</a> 
               <a href="https://github.com/Gumpest/SparseVLMs">[Code]</a>
@@ -385,12 +467,178 @@
 
         </tbody></table>
 
+
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+          <h3 style="text-indent:20px;color:brown">Vision Foundation Model</h3>
+
+          <tr>
+            <td style="padding:20px;width:30%;max-width:30%" align="center">
+              <img style="width:100%;max-width:100%" src="images/SegAnyMo.png" alt="dise">
+            </td>
+            <td width="75%" valign="center">
+              <papertitle>Segment Any Motion in Videos</papertitle>
+              <br>  
+              <a href="https://github.com/nnanhuang"> Nan Huang</a>,
+              <strong>Wenzhao Zheng</strong>, 
+              <a href="https://www.chenfengx.com/"> Chenfeng Xu </a>, 
+              <a href="https://people.eecs.berkeley.edu/~keutzer/"> Kurt Keutzer </a>, 
+              <a href="https://www.shanghangzhang.com/"> Shanghang Zhang</a>,
+              <a href="https://people.eecs.berkeley.edu/~kanazawa/"> Angjoo Kanazawa</a>,
+              <a href="https://qianqianwang68.github.io/"> Qianqian Wang</a>
+              <br>
+              <em>IEEE/CVF Conference on Computer Vision and Pattern Recognition (<strong>CVPR</strong>)</em>, 2025.
+              <br>
+              <a href="https://arxiv.org/abs/2503.22268">[arXiv]</a> 
+              <a href="https://github.com/nnanhuang/SegAnyMo">[Code]</a>
+              <iframe
+              style="margin-left: 2px; margin-bottom:-5px;"
+              frameborder="0" scrolling="0" width="91px" height="20px"
+              src="https://ghbtns.com/github-btn.html?user=nnanhuang&repo=SegAnyMo&type=star&count=true" >
+              </iframe>
+              <a href="https://motion-seg.github.io/">[Project Page]</a>
+              <!-- <a href="https://zhuanlan.zhihu.com/p/17968801773">[中文解读 (in Chinese)]</a> -->
+              <br>
+              <p> Our model produces instance-level fine-grained moving object masks and can handle challenging scenarios including articulated structures, shadow reflections, dynamic background motion, and drastic camera movement.</p>
+            </td>
+          </tr>
+
+
+        <tr>
+          <td style="padding:20px;width:30%;max-width:30%" align="center">
+            <img style="width:100%;max-width:100%" src="images/GlobalMamba.png" alt="dise">
+          </td>
+          <td width="75%" valign="center">
+            <papertitle>GlobalMamba: Global Image Serialization for Vision Mamba</papertitle>
+            <br>
+            <a href="https://scholar.google.com/citations?user=69-8jtcAAAAJ"> Chengkun Wang*</a>,
+            <strong>Wenzhao Zheng*<sup>†</sup></strong>,
+            <a href="https://scholar.google.com/citations?user=6a79aPwAAAAJ&hl=en&authuser=1"> Jie Zhou</a>,
+            <a href="http://ivg.au.tsinghua.edu.cn/Jiwen_Lu/"> Jiwen Lu</a>
+            <br>
+            <em><strong>arXiv</strong></em>, 2024.
+            <br>
+            <a href="https://arxiv.org/abs/2410.10316">[arXiv]</a>
+            <a href="https://github.com/wangck20/GlobalMamba">[Code]</a>
+            <iframe
+            style="margin-left: 2px; margin-bottom:-5px;"
+            frameborder="0" scrolling="0" width="91px" height="20px"
+            src="https://ghbtns.com/github-btn.html?user=wangck20&repo=GlobalMamba&type=star&count=true" >
+            </iframe>
+            <br>
+            <p> GlobalMamba constructs a causal token sequence by frequency, while ensuring that tokens acquire global feature information.</p>
+          </td>
+        </tr>
+
+
+        <tr>
+          <td style="padding:20px;width:30%;max-width:30%" align="center">
+            <img style="width:100%;max-width:100%" src="images/V2M.png" alt="dise">
+          </td>
+          <td width="75%" valign="center">
+            <papertitle>V2M: Visual 2-Dimensional Mamba for Image Representation Learning</papertitle>
+            <br>
+            <a href="https://scholar.google.com/citations?user=69-8jtcAAAAJ"> Chengkun Wang*</a>,
+            <strong>Wenzhao Zheng*<sup>†</sup></strong>,
+            <a href="https://scholar.google.com/citations?&user=LKVgsk4AAAAJ">Yuanhui Huang</a>, 
+            <a href="https://scholar.google.com/citations?user=6a79aPwAAAAJ&hl=en&authuser=1"> Jie Zhou</a>,
+            <a href="http://ivg.au.tsinghua.edu.cn/Jiwen_Lu/"> Jiwen Lu</a>
+            <br>
+            <em><strong>arXiv</strong></em>, 2024.
+            <br>
+            <a href="https://arxiv.org/abs/2410.10382">[arXiv]</a>
+            <a href="https://github.com/wangck20/V2M">[Code]</a>
+            <iframe
+            style="margin-left: 2px; margin-bottom:-5px;"
+            frameborder="0" scrolling="0" width="91px" height="20px"
+            src="https://ghbtns.com/github-btn.html?user=wangck20&repo=V2M&type=star&count=true" >
+            </iframe>
+            <br>
+            <p>Visual 2-Dimensional Mamba (V2M) generalize SSM to the 2-dimensional space and generates the next state considering two adjacent states on both dimensions (e.g., columns and rows) which directly processes image tokens in the 2D space.</p>
+          </td>
+        </tr>
+        
+        
+        </tbody></table>
+        
+
+
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <h3 style="text-indent:20px;color:brown">Image Generation</h3>
+
+
+          <tr>
+            <td style="padding:20px;width:30%;max-width:30%" align="center">
+              <img style="width:100%;max-width:100%" src="images/SpectralAR.png" alt="dise">
+            </td>
+            <td width="75%" valign="center">
+              <papertitle>SpectralAR: Spectral Autoregressive Visual Generation</papertitle>
+              <br> 
+              <a href="https://huang-yh.github.io/"> Yuanhui Huang</a>, 
+              <a href="https://chen-wl20.github.io/"> Weiliang Chen</a>,
+              <strong>Wenzhao Zheng<sup>†</sup></strong>, 
+              <a href="https://duanyueqi.github.io/"> Yueqi Duan </a>,
+              <a href="https://scholar.google.com/citations?user=6a79aPwAAAAJ&hl=en&authuser=1"> Jie Zhou </a>, 
+              <a href="http://ivg.au.tsinghua.edu.cn/Jiwen_Lu/"> Jiwen Lu</a>
+              <br>
+              <em>IEEE International Conference on Computer Vision (<strong>ICCV</strong>)</em>, 2025.
+              <br>
+              <a href="https://arxiv.org/abs/2506.10962">[arXiv]</a> 
+              <a href="https://github.com/huang-yh/SpectralAR">[Code]</a>
+              <iframe
+              style="margin-left: 2px; margin-bottom:-5px;"
+              frameborder="0" scrolling="0" width="91px" height="20px"
+              src="https://ghbtns.com/github-btn.html?user=huang-yh&repo=SpectralAR&type=star&count=true" >
+              </iframe>
+              <a href="https://huang-yh.github.io/spectralar/">[Project Page]</a>
+              <!-- <a href="https://mp.weixin.qq.com/s?__biz=MzU4NjQ1NzQyNQ==&mid=2247486813&idx=1&sn=a17268e992e758b6b163c2d94eed6cb5&chksm=fcd6a19ab897918046a1f0b997d312e8a8d01ad9aafa38615ecefdf2f68cfb95a267b8f0ca25&mpshare=1&scene=1&srcid=0131JRQQdlxwyTP7HDo4d0BT&sharer_shareinfo=310108161e2f4bda7291cfbbff104f1d&sharer_shareinfo_first=6b27789183ea7efa584ca5ae176dfe55#rd">[中文解读 (in Chinese)]</a> -->
+              <br>
+              <p> We propose a Spectral AutoRegressive (SpectralAR) visual generation framework to achieve causality for visual sequences from the spectral perspective.</p>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="padding:20px;width:30%;max-width:30%" align="center">
+              <img style="width:100%;max-width:100%" src="images/GaussianToken.png" alt="dise">
+            </td>
+            <td width="75%" valign="center">
+              <papertitle>GaussianToken: An Effective Image Tokenizer with 2D Gaussian Splatting</papertitle>
+              <br> 
+              <a href=""> Jiajun Dong*</a>, 
+              <a href="https://scholar.google.com/citations?user=69-8jtcAAAAJ"> Chengkun Wang*</a>,
+              <strong>Wenzhao Zheng<sup>†</sup></strong>, 
+              <a href="https://leichenthu.github.io/">Lei Chen</a>, 
+              <a href="http://ivg.au.tsinghua.edu.cn/Jiwen_Lu/"> Jiwen Lu</a>,
+              <a href="https://andytang15.github.io/"> Yansong Tang</a>
+              <br>
+              <em><strong>arXiv</strong></em>, 2025.
+              <br>
+              <a href="https://arxiv.org/abs/2501.15619">[arXiv]</a> 
+              <a href="https://github.com/ChrisDong-THU/GaussianToken">[Code]</a>
+              <iframe
+              style="margin-left: 2px; margin-bottom:-5px;"
+              frameborder="0" scrolling="0" width="91px" height="20px"
+              src="https://ghbtns.com/github-btn.html?user=ChrisDong-THU&repo=GaussianToken&type=star&count=true" >
+              </iframe>
+              <!-- <a href="https://wzzheng.net/OccWorld/">[Project Page]</a> -->
+              <a href="https://mp.weixin.qq.com/s?__biz=MzU4NjQ1NzQyNQ==&mid=2247486813&idx=1&sn=a17268e992e758b6b163c2d94eed6cb5&chksm=fcd6a19ab897918046a1f0b997d312e8a8d01ad9aafa38615ecefdf2f68cfb95a267b8f0ca25&mpshare=1&scene=1&srcid=0131JRQQdlxwyTP7HDo4d0BT&sharer_shareinfo=310108161e2f4bda7291cfbbff104f1d&sharer_shareinfo_first=6b27789183ea7efa584ca5ae176dfe55#rd">[中文解读 (in Chinese)]</a>
+              <br>
+              <p> GaussianToken represents each image by a set of 2D Gaussian tokens in a feed-forward manner.</p>
+            </td>
+          </tr>
+
+
+
+        </tbody></table>
+
+
+
       
 
 
       <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody></tbody>
       
-        <h3 style="text-indent:20px;color:green">Large Driving Models<a href="https://github.com/wzzheng/LDM"> [Page]</a></h3>
+        <h3 style="text-indent:20px;color:green">Large Driving Model<a href="https://github.com/wzzheng/LDM"> [Page]</a></h3>
 
 
         <tr>
@@ -475,7 +723,7 @@
             <a href="http://ivg.au.tsinghua.edu.cn/Jiwen_Lu/"> Jiwen Lu</a>,
             <a href="https://www.shanghangzhang.com/"> Shanghang Zhang</a>
             <br>
-            <em><strong>arXiv</strong></em>, 2024.
+            <em>IEEE International Conference on Computer Vision (<strong>ICCV</strong>)</em>, 2025.
             <br>
             <a href="https://arxiv.org/abs/2412.05280">[arXiv]</a> 
             <a href="https://github.com/wzzheng/Stag">[Code]</a>
@@ -521,6 +769,34 @@
           </td>
         </tr>
 
+      <tr>
+        <td style="padding:20px;width:30%;max-width:30%" align="center">
+          <img style="width:100%;max-width:100%" src="./images/UniDrive.png" alt="dise">
+        </td>
+        <td width="75%" valign="center">
+          <papertitle>UniDrive: Towards Universal Driving Perception Across Camera Configurations</papertitle>
+          <br> 
+          <a href="https://github.com/LeningWang"> Ye Li</a>, 
+          <strong>Wenzhao Zheng<sup>†</sup></strong>, 
+          <a href="https://robotics.umich.edu/profile/xiaonan-sean-huang/"> Xiaonan Huang </a>,
+          <a href="https://people.eecs.berkeley.edu/~keutzer/"> Kurt Keutzer </a>
+          <br>
+          <em>International Conference on Learning Representations (<strong>ICLR</strong>)</em>, 2025.
+          <br>
+          <a href="https://arxiv.org/abs/2410.13864">[arXiv]</a> 
+          <a href="https://github.com/ywyeli/UniDrive">[Code]</a>
+          <iframe
+          style="margin-left: 2px; margin-bottom:-5px;"
+          frameborder="0" scrolling="0" width="91px" height="20px"
+          src="https://ghbtns.com/github-btn.html?user=ywyeli&repo=UniDrive&type=star&count=true" >
+          </iframe>
+          <a href="https://wzzheng.net/UniDrive/">[Project Page]</a>
+          <a href="https://zhuanlan.zhihu.com/p/3904342108">[中文解读 (in Chinese)]</a>
+          <br>
+          <p> UniDrive presents the first comprehensive framework designed to generalize vision-centric 3D perception models across diverse camera configurations. </p>
+        </td>
+      </tr>  
+
 
       </tbody></table>
 
@@ -530,10 +806,6 @@
           
           
             <h3 style="text-indent:20px;color:green">End-to-End Autonomou Driving</h3>
-
-
-
-
 
             <tr>
               <td style="padding:20px;width:30%;max-width:30%" align="center">
@@ -607,36 +879,36 @@
           
             <h3 style="text-indent:20px;color:green">3D Occupancy Prediction</h3>
 
-
-
             <tr>
               <td style="padding:20px;width:30%;max-width:30%" align="center">
-                <img style="width:100%;max-width:100%" src="images/GaussianWorld.png" alt="dise">
+                <img style="width:100%;max-width:100%" src="images/GaussianFormer-2.png" alt="dise">
               </td>
               <td width="75%" valign="center">
-                <papertitle>GaussianWorld: Gaussian World Model for Streaming 3D Occupancy Prediction</papertitle>
-                <br>  
-                <a href="https://scholar.google.com/citations?user=11kh6C4AAAAJ"> Sicheng Zuo*</a>,
-                <strong>Wenzhao Zheng*<sup>†</sup></strong>, 
-                <a href="https://scholar.google.com/citations?&user=LKVgsk4AAAAJ"> Yuanhui Huang </a>, 
-                <a href="https://scholar.google.com/citations?user=6a79aPwAAAAJ&hl=en&authuser=1"> Jie Zhou </a>, 
+                <papertitle>GaussianFormer-2: Probabilistic Gaussian Superposition for Efficient 3D Occupancy Prediction</papertitle>
+                <br> 
+                <a href="https://scholar.google.com/citations?&user=LKVgsk4AAAAJ">Yuanhui Huang</a>, 
+                <a href="">Amonnut Thammatadatrakoon</a>, 
+                <strong>Wenzhao Zheng<sup>†</sup></strong>, 
+                <a href="https://scholar.google.com/citations?user=UgadGL8AAAAJ&hl=zh-CN&oi=ao"> Yunpeng Zhang</a>, 
+                <a href="">Dalong Du</a>, 
                 <a href="http://ivg.au.tsinghua.edu.cn/Jiwen_Lu/"> Jiwen Lu </a>
                 <br>
-                <em><strong>arXiv</strong></em>, 2024.
+                <em>IEEE/CVF Conference on Computer Vision and Pattern Recognition (<strong>CVPR</strong>)</em>, 2025.
                 <br>
-                <a href="https://arxiv.org/abs/2412.10373">[arXiv]</a> 
-                <a href="https://github.com/zuosc19/GaussianWorld">[Code]</a>
+                <a href="https://arxiv.org/abs/2412.04384">[arXiv]</a> 
+                <a href="https://github.com/huang-yh/GaussianFormer">[Code]</a>
                 <iframe
                 style="margin-left: 2px; margin-bottom:-5px;"
                 frameborder="0" scrolling="0" width="91px" height="20px"
-                src="https://ghbtns.com/github-btn.html?user=zuosc19&repo=GaussianWorld&type=star&count=true" >
+                src="https://ghbtns.com/github-btn.html?user=huang-yh&repo=GaussianFormer&type=star&count=true" >
                 </iframe>
-                <!-- <a href="https://wzzheng.net/OccWorld/">[Project Page]</a> -->
-                <!-- <a href="https://zhuanlan.zhihu.com/p/16608177027">[中文解读 (in Chinese)]</a> -->
+                <a href="https://wzzheng.net/GaussianFormer/">[Project Page]</a>
+                <!-- <a href="https://zhuanlan.zhihu.com/p/700833107">[中文解读 (in Chinese)]</a> -->
                 <br>
-                <p> GaussianWorld reformulates 3D occupancy prediction as a 4D occupancy forecasting problem conditioned on the current sensor input and propose a Gaussian World Model to exploit the scene evolution for perception.</p>
+                <p> GaussianFormer-2 interprets each Gaussian as a probability distribution of its neighborhood being occupied and conforms to probabilistic multiplication to derive the overall geometry.</p>
               </td>
-            </tr>
+            </tr>  
+
 
           <tr>
             <td style="padding:20px;width:30%;max-width:30%" align="center">
@@ -751,7 +1023,7 @@
               <a href="https://scholar.google.com/citations?user=6a79aPwAAAAJ&hl=en&authuser=1"> Jie Zhou </a>, 
               <a href="http://ivg.au.tsinghua.edu.cn/Jiwen_Lu/"> Jiwen Lu </a>
               <br>
-              <em><strong>arXiv</strong></em>, 2024.
+              <em>IEEE International Conference on Computer Vision (<strong>ICCV</strong>)</em>, 2025.
               <br>
               <a href="https://arxiv.org/abs/2412.04380">[arXiv]</a> 
               <a href="https://github.com/YkiWu/EmbodiedOcc">[Code]</a>
@@ -1222,7 +1494,7 @@
             <heading>Academic Services</heading>
             <p>
               <li style="margin: 5px;"> 
-                <b>Conference Reviewer / PC Member:</b> CVPR 2019-2025, ICCV 2019-2023, ECCV 2020-2024, NeurIPS 2023-2024, ICLR 2024-2025, ICML 2025, IJCAI 2020-2024, WACV 2020-2024, ICME 2019-2024, 
+                <b>Conference Reviewer / PC Member:</b> CVPR 2019-2025, ICCV 2019-2025, ECCV 2020-2024, NeurIPS 2023-2025, ICLR 2024-2025, ICML 2025, IJCAI 2020-2025, WACV 2020-2025, ICME 2019-2025, 
               </li>
               <li style="margin: 5px;"> 
                 <b>Senior PC Member:</b> IJCAI 2021
@@ -1255,7 +1527,7 @@
     <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=3Xl5HqLv8wQcw477KsV8mPSQEnrm59hQ6peJ0jKbxdw&cl=ffffff&w=a"></script>
 	  </div>         -->
 	  <br>
-	    &copy; Wenzhao Zheng | Last updated: Feb. 1, 2025.
+	    &copy; Wenzhao Zheng | Last updated: Jul. 12, 2025.
 </center></p>
 </body>
 
